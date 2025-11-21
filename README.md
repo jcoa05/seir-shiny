@@ -1,13 +1,15 @@
-# Epidemic Intervention Simulator
+# Epidemic intervention simulator
 
 [![Shiny](https://img.shields.io/badge/Powered%20by-Shiny-blue?style=flat&logo=r&logoColor=white)](https://shiny.rstudio.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-An interactive epidemic simulation tool that demonstrates the impact of treatment timing and effectiveness on infectious disease outbreaks.
+A simplified interactive epidemic simulation tool that demonstrates the impact of treatment timing and effectiveness on infectious disease outbreaks.
 
 ## Overview
 
 This Shiny web application simulates the dynamics of infectious disease epidemics using a modified SE2IR (Susceptible-Exposed-Infectious[untreated]-Infectious[treated]-Recovered) compartmental model. The simulator allows users to explore how different treatment strategies affect epidemic outcomes across different populations.
+
+![Image of the tool #1](figs/seir1.png)  
 
 ### Key Features:
 
@@ -17,6 +19,8 @@ This Shiny web application simulates the dynamics of infectious disease epidemic
 - **Comprehensive Statistics**: Track peak infections, total cases, and final epidemic state
 - **Multiple Visualization Options**: View new infections or all compartment populations over time
 - **Pre-configured Scenarios**: Explore optimistic, pessimistic, and no-treatment scenarios
+
+![Image of the tool #2](figs/seir2.png)  
 
 ## The Model
 
